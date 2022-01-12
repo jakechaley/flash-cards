@@ -1,5 +1,8 @@
 $(document).ready(function() {
   $(".card").click(function() {
-    $("p").removeClass("hidden-text");
+    $('p', this).toggleClass("hidden-text");
   });
+
+  
 });
+
